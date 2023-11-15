@@ -1,0 +1,1352 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="theme-color" content="#0060fe" />
+    <meta
+      name="title"
+      content="Affordable Valheim hosting on Premium hardware - Starting at $13"
+    />
+    <meta
+      name="description"
+      content="GameTeam is an industry leader provider of Valheim hosting. Unlimited slots, unlimited SSD, Mod & Plugin support and 24/7 support - Starting from $13, up to 64GB RAM."
+    />
+    <meta name="keywords" content="valheim server hosting" />
+    <meta name="language" content="en" />
+    <link
+      rel="shortcut icon"
+      href="https://i.imgur.com/aVCurdL.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="assets/css/bundle.min.css" />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/templates.css" />
+    <link rel="stylesheet" href="assets/css/index.css" />
+    <link rel="stylesheet" href="assets/css/pages/gameteam.css" />
+    <title>
+      Affordable Valheim hosting on Premium hardware - Starting at $13
+    </title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  </head>
+  <style>
+    body {
+      font-family: var(--secondary-font) !important;
+    }
+    input[type="radio"] {
+      -webkit-appearance: none;
+    }
+    input[type="checkbox"] {
+      -webkit-appearance: none;
+    }
+    label {
+      border: 3px solid transparent;
+    }
+    input[type="radio"]:checked + label {
+      border: 3px solid #0060fe;
+    }
+    input[type="checkbox"]:checked + label {
+      border: 3px solid #0060fe;
+    }
+    input[type="radio"]:hover + label {
+      border: 3px solid #0060fe;
+    }
+    input[type="checkbox"]:hover + label {
+      border: 3px solid #0060fe;
+    }
+    .customtt .customtttext {
+      visibility: hidden;
+      width: 200px;
+      background-color: black;
+      color: #fff;
+      z-index: 1;
+      font-size: 12px;
+    }
+    .customtt:hover .customtttext {
+      visibility: visible;
+    }
+    @media (max-width: 600px) {
+      .hideselect {
+        display: none !important;
+      }
+      .typeimg {
+        display: none !important;
+      }
+    }
+    .tab-pane.active {
+      animation: opac 2s;
+    }
+    .gtanimation {
+      animation: opac 2s;
+    }
+    @keyframes opac {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    .form-control {
+      height: 60px;
+      background: #282a3f !important;
+      border-color: #e2e9ee !important;
+      border: none !important;
+      box-shadow: none !important;
+      font-family: var(--secondary-font) !important;
+      color: white !important;
+    }
+  </style>
+  <style>
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #ccc;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #0060fe;
+    }
+
+    .imghover:hover {
+      -ms-transform: scale(1.3); /* IE 9 */
+      -webkit-transform: scale(1.3); /* Safari 3-8 */
+      transform: scale(1.3);
+      transition: transform 0.4s;
+    }
+
+    #Map-svg {
+      width: 900px;
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+  <body class="position-relative index-page" id="index-page">
+    <div class="preloader" id="preloader">
+      <div class="content d-flex align-items-center justify-content-center">
+        <div class="spinner"></div>
+      </div>
+    </div>
+    <nav class="theme-navbar" id="theme-navbar">
+      <div class="container-fluid nav-top d-flex align-items-center">
+        <div class="menu-icon" id="open-links-btn">
+          <img
+            src="assets/images/templates/navbar/hamburger.png"
+            class="menu-icon img-fluid"
+            alt="Hyzen"
+          />
+        </div>
+        <a href="index" class="brand d-flex align-items-center">
+          <img
+            src="https://i.imgur.com/aVCurdL.png"
+            class="dt-img img-fluid"
+            alt="Hyzen"
+          />
+          <img
+            src="https://i.imgur.com/aVCurdL.png"
+            class="lt-img img-fluid"
+            alt="Hyzen"
+          />
+        </a>
+        <div
+          class="options d-md-flex d-none align-items-center justify-content-end ml-auto"
+        >
+          <div class="buttons">
+            <a
+              href="https://panel.knighthost.live"
+              class="btn btn-outline-dark btn-sm shadow-off text-uppercase mr--sm"
+              >Control Panel</a
+            >
+            <a
+              href="https://portal.knighthost.live"
+              class="btn btn-fill-primary btn-sm shadow-off text-uppercase mr--sm"
+              style="
+                height: 38px !important;
+                border: none;
+                border: 1px solid #1a1b2e;
+              "
+              >Billing Panel</a
+            >
+          </div>
+          <div class="lang" id="lang">
+            <div class="current">
+              EN
+              <img
+                src="assets/images/icons/outline-font-icons/fi-rr-angle-small-down.svg"
+                class="img-fluid"
+                alt="Icon"
+              />
+            </div>
+            <div class="lang-menu" id="lang-menu">
+              <a href="#" class="lang-item active">English</a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="second-options d-md-none d-flex align-content-center justify-content-end ml-auto"
+        >
+        <div class="o-link user-link" id="user-menu-btn">
+          <img src="assets/images/templates/navbar/profile.webp" class="icon" alt="Icon" />
+          <ul class="user-dropdown-menu list-unstyled" id="user-dropdown-menu">
+          <li class="uddm-link-parent">
+          <div class="title-2">Management</div>
+          <p class="para-2">Please select a panel to login.</p>
+          <a href="https://portal.knighthost.live" class="btn btn-outline-dark btn-sm shadow-off text-uppercase mr--sm" style="margin-bottom:15px!important">Control Panel</a>
+          <a href="https://panel.knighthost.live" class="btn btn-fill-primary btn-sm shadow-off text-uppercase mr--sm" style="height: 38px!important;border: none;border:1px solid #1a1b2e">Billing Panel</a>
+          </li>
+          
+        </ul>
+      </div>
+      
+      </div>
+      </div>
+      <div class="container-fluid nav-bottom d-flex align-items-center justify-content-between">
+      <div class="info d-flex align-items-center">
+      <a href="#" class="item">
+      
+      <span class="text" style="color:white">Game server hosting done right.</span>
+      </a>
+      </div>
+      <div class="links d-xl-flex align-items-center ml-auto" id="theme-navbar-links">
+      <div class="close-links-btn" id="close-links-btn">
+      <img src="assets/images/templates/navbar/close.png" class="img-fluid" alt="Close" style="filter:invert(1)" />
+      </div>
+      <div class="link active">
+      <a href="index" style="color:white">Home</a>
+      </div>
+      <div class="link has-dropdown-menu">
+      <a href="" style="color:white">All Games</a>
+      <ul class="dropdown-menu list-unstyled">
+      <li class="group-title">Game Servers</li>
+      <li><a href="minecraft-hosting" class="dm-link st-new">Minecraft Server Hosting</a></li>
+      <li><a href="ark-hosting" class="dm-link">Ark: SE Server Hosting</a></li>
+      <li><a href="valheim-hosting" class="dm-link">Valheim Server Hosting</a></li>
+      
+      </ul>
+      </div>
+      <div class="link">
+      <a href="https://partner.knighthost.live" style="color:white">Referral Program</a>
+      </div>
+      <div class="link">
+      <a href="blog" target="_blank" style="color:white">Blog</a>
+      </div>
+      <div class="link">
+      <a href="https://status.knighthost.live" target="_blank" style="color:white">Service Status</a>
+      </div>
+      <div class="link">
+      <a href="https://help.knighthost.live/ticket" style="color:white">Get Support</a>
+      </div>
+      <div class="link has-dropdown-menu">
+      <a href="" style="color:white">Legal</a>
+      <ul class="dropdown-menu list-unstyled">
+      <li class="group-title">Company</li>
+      <li><a href="aboutus" class="dm-link">About Us</a></li>
+      <li><a href="terms" class="dm-link">Terms of Use</a></li>
+      <li><a href="privacy" class="dm-link">Privacy Policy</a></li>
+      <li><a href="refund" class="dm-link">Refund Policy</a></li>
+      </ul>
+      </div>
+      <span class="indicator"></span>
+      </div>
+      </div>
+      </nav>
+    <div
+      class="se-i position-relative"
+      style="
+        background: linear-gradient(to top, var(--dark), rgba(0, 0, 0, 0.2)),
+          url(assets/images/pages/games/bg-04.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      "
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-8 mx-auto text-center">
+            <h1 class="title-1">Get high-powered<br />Valheim Server.</h1>
+            <p class="para-1">
+              A brutal exploration and survival game for 1-10 players, set in a
+              procedurally-generated purgatory inspired by viking culture.
+              Battle, build, and conquer your way to a saga worthy of Odin’s
+              patronage!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="se-iii py-120" style="background: #0b0c1b" id="maincontainer">
+      <div class="container">
+        <div class="content text-md-left text-center">
+          <div class="row">
+            <div class="col">
+              <form
+                action="core/goBill.php?game=valheim"
+                role="form"
+                class="input-transparent"
+                method="POST"
+                id="createmcserver"
+              >
+                <div id="showusername"></div>
+                <div id="showplan"></div>
+                <div id="showlocation"></div>
+                <div id="showtype"></div>
+                <div class="tab-content" id="createTabContent">
+                  <div
+                    class="tab-pane fade show active"
+                    id="plans"
+                    role="tabpanel"
+                    aria-labelledby="plans-tab"
+                  >
+                    <div class="se-head mt-4">
+                      <h3 class="se-title-1 mt-5">Valheim</h3>
+                      <h4
+                        class="se-title-2"
+                        style="
+                          font-size: 22px;
+                          font-family: var(--secondary-font);
+                        "
+                      >
+                        Now you are ready to start your valheim server.
+                      </h4>
+                    </div>
+                    <div
+                      class="mb-4 mt-4"
+                      id="currentstep2"
+                      style="
+                        background: #141526;
+                        box-shadow: 0px 8px 16px rgb(0 8 36 / 5%);
+                        padding: 30px;
+                        border-radius: 10px;
+                      "
+                    >
+                      <div class="se-v">
+                        <div style="background: #141526 !important">
+                          <div
+                            class="plans mb-2"
+                            style="border: none; box-shadow: none"
+                          >
+                            <div class="row">
+                              <div class="col-12">
+                                <div class="compare-table-container mb-4">
+                                  <div class="custom-thead" id="custom-thead-v">
+                                    <div
+                                      class="tabs d-flex align-items-center justify-content-start"
+                                    >
+                                      <div
+                                        class="tab active flex-grow-1"
+                                        data-filter="self"
+                                      >
+                                        Valheim
+                                      </div>
+                                    </div>
+                                    <div class="tab-content" data-for="self">
+                                      <div class="row align-items-center">
+                                        <div
+                                          class="col-md-6 mb-md-0 mb-2 text-md-left text-center"
+                                        >
+                                          <span class="table-title-4"
+                                            >10 Slots Plan</span
+                                          >
+                                          <span class="table-title-1"
+                                            ><span class="coin">$</span
+                                            >13.00<span class="sm-text"
+                                              >/monthly</span
+                                            ></span
+                                          >
+                                        </div>
+                                        <div
+                                          class="col-md-6 text-md-left text-center"
+                                        >
+                                          <input
+                                            type="radio"
+                                            name="plan"
+                                            id="valheim"
+                                            value="valheim"
+                                          />
+                                          <label for="valheim">
+                                            <span class="actions">
+                                              <div
+                                                class="btn btn-fill-primary btn-sm shadow-off font-500"
+                                                style="border-radius: 0px"
+                                              >
+                                                Start Your Server
+                                              </div>
+                                            </span>
+                                          </label>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <table
+                                    class="compare-table"
+                                    id="compare-table-v"
+                                  >
+                                    <thead>
+                                      <tr>
+                                        <th class="top-left-corner">
+                                          <span class="table-title-head">
+                                            Valheim supports maximum 10 players
+                                            with a single plan. <span>→</span>
+                                          </span>
+                                        </th>
+                                        <th class="top-right-corner">
+                                          <span class="table-title-3"
+                                            >Valheim</span
+                                          >
+                                          <div class="price">
+                                            <span class="table-title-4"
+                                              >10 Slots Plan</span
+                                            >
+                                            <span class="table-title-1"
+                                              ><span class="coin">$</span
+                                              >13.00<span class="sm-text"
+                                                >/monthly</span
+                                              ></span
+                                            >
+                                          </div>
+                                          <input
+                                            type="radio"
+                                            name="plan"
+                                            id="valheim"
+                                            value="valheim"
+                                          />
+                                          <label for="valheim">
+                                            <span class="actions">
+                                              <div
+                                                class="btn btn-fill-primary btn-sm shadow-off font-500"
+                                                style="border-radius: 0px"
+                                              >
+                                                Start Your Server
+                                              </div>
+                                            </span>
+                                          </label>
+                                        </th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr class="hovered">
+                                        <td class="left-corner"></td>
+                                        <td
+                                          class="right-corner"
+                                          data-for="self"
+                                        >
+                                          Smooth, reliable gameplay means more
+                                          Valheim fun for you and your players.
+                                        </td>
+                                      </tr>
+                                      <tr data-filter="hardware" class="">
+                                        <td class="left-corner">Slot</td>
+                                        <td
+                                          class="right-corner"
+                                          data-for="self"
+                                        >
+                                          10 Slots
+                                        </td>
+                                      </tr>
+                                      <tr data-filter="hardware" class="">
+                                        <td class="left-corner">Processor</td>
+                                        <td
+                                          class="right-corner"
+                                          data-for="self"
+                                        >
+                                          Intel i9 / AMD Ryzen 9
+                                        </td>
+                                      </tr>
+                                      <tr data-filter="hardware" class="">
+                                        <td class="left-corner">
+                                          Disk Technology
+                                        </td>
+                                        <td
+                                          class="right-corner"
+                                          data-for="self"
+                                        >
+                                          NVMe SSD
+                                        </td>
+                                      </tr>
+                                      <tr data-filter="hardware" class="">
+                                        <td class="left-corner">Storage</td>
+                                        <td
+                                          class="right-corner"
+                                          data-for="self"
+                                        >
+                                          Unlimited Disk
+                                        </td>
+                                      </tr>
+                                      <tr data-filter="hardware" class="">
+                                        <td class="left-corner">
+                                          Powerful DDoS Protection
+                                        </td>
+                                        <td
+                                          class="right-corner"
+                                          data-for="self"
+                                        >
+                                          <img
+                                            class="lazy check-icon img-fluid"
+                                            alt="Check"
+                                            src="assets/images/icons/check.svg"
+                                          />
+                                        </td>
+                                      </tr>
+                                      <tr data-filter="hardware" class="">
+                                        <td class="left-corner">
+                                          Instant Activation
+                                        </td>
+                                        <td
+                                          class="right-corner"
+                                          data-for="self"
+                                        >
+                                          <img
+                                            class="lazy check-icon img-fluid"
+                                            alt="Check"
+                                            src="assets/images/icons/check.svg"
+                                          />
+                                        </td>
+                                      </tr>
+                                      <tr data-filter="hardware" class="">
+                                        <td class="left-corner">
+                                          Full FTP Access
+                                        </td>
+                                        <td
+                                          class="right-corner"
+                                          data-for="self"
+                                        >
+                                          <img
+                                            class="lazy check-icon img-fluid"
+                                            alt="Check"
+                                            src="assets/images/icons/check.svg"
+                                          />
+                                        </td>
+                                      </tr>
+                                      <tr data-filter="hardware" class="">
+                                        <td class="left-corner">
+                                          Server Monitoring
+                                        </td>
+                                        <td
+                                          class="right-corner"
+                                          data-for="self"
+                                        >
+                                          <img
+                                            class="lazy check-icon img-fluid"
+                                            alt="Check"
+                                            src="assets/images/icons/check.svg"
+                                          />
+                                        </td>
+                                      </tr>
+                                      <tr data-filter="hardware" class="">
+                                        <td class="left-corner">
+                                          Real Person 24/7 Support
+                                        </td>
+                                        <td
+                                          class="right-corner"
+                                          data-for="self"
+                                        >
+                                          <img
+                                            class="lazy check-icon img-fluid"
+                                            alt="Check"
+                                            src="assets/images/icons/check.svg"
+                                          />
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="se-iii">
+                        <div style="background: #141526 !important">
+                          <div class="se-head">
+                            <h3 class="se-title-1">Main Features</h3>
+                            <h4
+                              class="se-title-2"
+                              style="
+                                font-size: 22px;
+                                font-family: var(--secondary-font);
+                              "
+                            >
+                              It doesn't matter which plan you choose.<br />All
+                              premium features are just for you.
+                            </h4>
+                          </div>
+                          <div
+                            class="plans mb-2"
+                            style="border: none; box-shadow: none"
+                          >
+                            <div class="row">
+                              <div class="col-xl-4 col-md-6 mb-2">
+                                <div class="plan" style="padding: 0 40px 40px">
+                                  <div class="group">
+                                    <h4 class="title-4">Server Features</h4>
+                                    <ul class="list list-unstyled">
+                                      <li>
+                                        <img
+                                          class="lazy img-fluid"
+                                          alt="Icon"
+                                          src="assets/images/pages/shared-hosting/check-circle.svg"
+                                        />Intel i9 / AMD Ryzen 9 CPU
+                                        <span
+                                          class="float-box"
+                                          data-text="Our servers are equipped with the most powerful processors. Our aim is to always provide the best quality service."
+                                        ></span>
+                                      </li>
+                                      <li>
+                                        <img
+                                          class="lazy img-fluid"
+                                          alt="Icon"
+                                          src="assets/images/pages/shared-hosting/check-circle.svg"
+                                        />Intel NVMe SSD Drives
+                                        <span
+                                          class="float-box"
+                                          data-text="Our cloud-focused Intel U.2 NVMe SSD drives offer the absolute fastest in server loading and response times. The age of waiting minutes for your massive Ark world to load is far gone!"
+                                        ></span>
+                                      </li>
+                                      <li>
+                                        <img
+                                          class="lazy img-fluid"
+                                          alt="Icon"
+                                          src="assets/images/pages/shared-hosting/check-circle.svg"
+                                        />Best-in-class DDoS Protection
+                                        <span
+                                          class="float-box"
+                                          data-text="Guaranteed to keep you online through even the most brutal DDoS attacks thanks to inline protection appliances."
+                                        ></span>
+                                      </li>
+                                      <li>
+                                        <img
+                                          class="lazy img-fluid"
+                                          alt="Icon"
+                                          src="assets/images/pages/shared-hosting/check-circle.svg"
+                                        />Instant Server Activation
+                                        <span
+                                          class="float-box"
+                                          data-text="Your Ark server will be instantly activated and provisioned within 30 seconds upon receipt of payment."
+                                        ></span>
+                                      </li>
+                                      <li>
+                                        <img
+                                          class="lazy img-fluid"
+                                          alt="Icon"
+                                          src="assets/images/pages/shared-hosting/check-circle.svg"
+                                        />Global Datacenters
+                                        <span
+                                          class="float-box"
+                                          data-text="We've very carefully established a widespread network which is now 10 cities strong. Using the most reliable facilities and networks with true redundancy, we're able to ensure 99.99% uptime and consistent server performance."
+                                        ></span>
+                                      </li>
+                                      <li>
+                                        <img
+                                          class="lazy img-fluid"
+                                          alt="Icon"
+                                          src="assets/images/pages/shared-hosting/check-circle.svg"
+                                        />Never Overselling
+                                      </li>
+                                      <li>
+                                        <img
+                                          class="lazy img-fluid"
+                                          alt="Icon"
+                                          src="assets/images/pages/shared-hosting/check-circle.svg"
+                                        />High Performance Servers
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-xl-4 col-md-6 mb-2">
+                                <div class="plan" style="padding: 0 40px 40px">
+                                  <div class="group">
+                                    <h4 class="title-4">Game Features</h4>
+                                    <ul class="list list-unstyled">
+                                      <li>
+                                        <img
+                                          class="lazy img-fluid"
+                                          alt="Icon"
+                                          src="assets/images/pages/shared-hosting/check-circle.svg"
+                                        />Unlimited Slots
+                                      </li>
+                                      <li>
+                                        <img
+                                          class="lazy img-fluid"
+                                          alt="Icon"
+                                          src="assets/images/pages/shared-hosting/check-circle.svg"
+                                        />Full FTP Access
+                                        <span
+                                          class="float-box"
+                                          data-text="For power users that prefer to self-manage, we provide full FTP access as well as a web-based file manager."
+                                        ></span>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-xl-4 col-md-6 mb-2">
+                                <div class="plan" style="padding: 0 40px 40px">
+                                  <div class="group">
+                                    <h4 class="title-4">Also Includes</h4>
+                                    <ul class="list list-unstyled">
+                                      <li>
+                                        <img
+                                          class="lazy img-fluid"
+                                          alt="Icon"
+                                          src="assets/images/pages/shared-hosting/check-circle.svg"
+                                        />Real Person 24/7 Support
+                                        <span
+                                          class="float-box"
+                                          data-text="Our team is standing by 24/7/365 to assist with your every support need with an average response time of < 15 min."
+                                        ></span>
+                                      </li>
+                                      <li>
+                                        <img
+                                          class="lazy img-fluid"
+                                          alt="Icon"
+                                          src="assets/images/pages/shared-hosting/check-circle.svg"
+                                        />Free Subdomain
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="se-footer d-flex align-items-center justify-content-center flex-wrap"
+                          >
+                            <div
+                              class="line d-flex align-items-center justify-content-start"
+                            >
+                              <img
+                                data-src="assets/images/icons/check-circle.svg"
+                                class="lazy icon img-fluid"
+                                alt="Check"
+                              />
+                              <span class="text">Daily Backups</span>
+                            </div>
+                            <div
+                              class="line d-flex align-items-center justify-content-start"
+                            >
+                              <img
+                                data-src="assets/images/icons/check-circle.svg"
+                                class="lazy icon img-fluid"
+                                alt="Check"
+                              />
+                              <span class="text"
+                                >Raid 1 multi-disk usage technology</span
+                              >
+                            </div>
+                            <div
+                              class="line d-flex align-items-center justify-content-start"
+                            >
+                              <img
+                                data-src="assets/images/icons/check-circle.svg"
+                                class="lazy icon img-fluid"
+                                alt="Check"
+                              />
+                              <span class="text"
+                                >i9 / Ryzen 9 CPU, and much more.</span
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="tab-pane fade"
+                    id="location"
+                    role="tabpanel"
+                    aria-labelledby="location-tab"
+                  >
+                    <div class="se-head mt-4">
+                      <h3 class="se-title-1 mt-5">Valheim</h3>
+                      <h4
+                        class="se-title-2"
+                        style="
+                          font-size: 22px;
+                          font-family: var(--secondary-font);
+                        "
+                      >
+                        Choose a data center region where your server will run.
+                      </h4>
+                    </div>
+                    <div class="mb-4 mt-4">
+                      <div class="row" id="currentstep3">
+                        <div
+                          class="col text-center"
+                          style="
+                            box-shadow: 0px 8px 16px rgb(0 8 36 / 5%);
+                            height: 190px;
+                          "
+                        >
+                          <input
+                            type="radio"
+                            name="location"
+                            id="europe"
+                            value="europe"
+                          />
+                          <label
+                            for="europe"
+                            style="margin-bottom: 0 !important"
+                          >
+                            <img
+                              src="assets/images/flags/flag-eu.png"
+                              class=""
+                              style="width: 100%; height: 105px"
+                            />
+                            <span class="actions">
+                              <div
+                                class="btn btn-fill-primary btn-sm shadow-off w-100"
+                                style="border-radius: 0px"
+                              >
+                                Choose Europe
+                              </div>
+                            </span>
+                          </label>
+                        </div>
+                        <div
+                          class="col text-center"
+                          style="
+                            box-shadow: 0px 8px 16px rgb(0 8 36 / 5%);
+                            height: 190px;
+                          "
+                        >
+                          <input
+                            type="radio"
+                            name="location"
+                            id="usa"
+                            value="usa"
+                          />
+                          <label for="usa" style="margin-bottom: 0 !important">
+                            <img
+                              src="assets/images/flags/flag-us.png"
+                              class=""
+                              style="width: 100%; height: 105px"
+                            />
+                            <span class="actions">
+                              <div
+                                class="btn btn-fill-primary btn-sm shadow-off w-100"
+                                style="border-radius: 0px"
+                              >
+                                Choose USA
+                              </div>
+                            </span>
+                          </label>
+                        </div>
+                        <div
+                          class="col text-center"
+                          style="
+                            box-shadow: 0px 8px 16px rgb(0 8 36 / 5%);
+                            height: 190px;
+                          "
+                        >
+                          <input
+                            type="radio"
+                            name="location"
+                            id="germany"
+                            value="germany"
+                          />
+                          <label
+                            for="germany"
+                            style="margin-bottom: 0 !important"
+                          >
+                            <img
+                              src="assets/images/flags/flag-de.png"
+                              class=""
+                              style="width: 100%; height: 105px"
+                            />
+                            <span class="actions">
+                              <div
+                                class="btn btn-fill-primary btn-sm shadow-off w-100"
+                                style="border-radius: 0px"
+                              >
+                                Choose Germany
+                              </div>
+                            </span>
+                          </label>
+                        </div>
+                        <div
+                          class="col text-center"
+                          style="
+                            box-shadow: 0px 8px 16px rgb(0 8 36 / 5%);
+                            height: 190px;
+                          "
+                        >
+                          <input
+                            type="radio"
+                            name="location"
+                            id="canada"
+                            value="canada"
+                            disabled
+                          />
+                          <label
+                            for="canada"
+                            class="disabled customtt"
+                            style="margin-bottom: 0 !important"
+                          >
+                            <img
+                              src="assets/images/flags/flag-ca.png"
+                              class=""
+                              style="width: 100%; height: 105px"
+                            />
+                            <span class="actions">
+                              <div
+                                class="btn btn-fill-primary btn-sm shadow-off w-100"
+                                style="border-radius: 0px"
+                              >
+                                Choose Canada
+                              </div>
+                            </span>
+                            <span class="customtttext"
+                              >Server capacity full. Please select another
+                              location.</span
+                            >
+                          </label>
+                        </div>
+                        <div
+                          class="col text-center"
+                          style="
+                            box-shadow: 0px 8px 16px rgb(0 8 36 / 5%);
+                            height: 190px;
+                          "
+                        >
+                          <input
+                            type="radio"
+                            name="location"
+                            id="france"
+                            value="france"
+                            disabled
+                          />
+                          <label
+                            for="france"
+                            class="disabled customtt"
+                            style="margin-bottom: 0 !important"
+                          >
+                            <img
+                              src="assets/images/flags/flag-fr.png"
+                              class=""
+                              style="width: 100%; height: 105px"
+                            />
+                            <span class="actions">
+                              <div
+                                class="btn btn-fill-primary btn-sm shadow-off w-100"
+                                style="border-radius: 0px"
+                              >
+                                Choose France
+                              </div>
+                            </span>
+                            <span class="customtttext"
+                              >Server capacity full. Please select another
+                              location.</span
+                            >
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      function delclass() {
+          $('#username').removeClass('show active');
+          $('#plans').removeClass('show active');
+          $('#location').removeClass('show active');
+          $('#type').removeClass('show active');
+          $('#additional').removeClass('show active');
+          $('#final').removeClass('show active');
+  
+          var navigationFn = {
+              goToSection: function(id) {
+                  $('html, body').animate({
+                      scrollTop: $(id).offset().top
+                  }, 500);
+              }
+          }
+  
+          function delay(time) {
+              return new Promise(resolve => setTimeout(resolve, time));
+          }
+  
+          delay(500).then(() => navigationFn.goToSection('#maincontainer'));
+      }
+  
+      $(document).on("keypress", 'form', function (e) {
+          var code = e.keyCode || e.which;
+          if (code == 13) {
+              e.preventDefault();
+              return false;
+          }
+      });
+  
+      $('.currentstep1').on('keyup', function() {
+          $(this).val($(this).val().replace(/[^a-z0-9\s]/gi, ""));
+          $(this).val($(this).val().replace(/ /g, ""));
+          if($(this).val().length < 8) {
+              $('.nextstep1').hide();
+              $('#minchar').text("You must enter a minimum of 8 characters, only Latin and no space.");
+          }else{
+              $('.nextstep1').show();
+              $('#minchar').text(" ");
+          }
+      });
+  
+      $(".nextstep1").click(function() {
+          $('#showusername').empty();
+          $('#showusername').append('<div class="row"><div class="col mb-1"><div class="form-control gtanimation" style="background:#141526!important;border: none!important;font-size: 19px;box-shadow: 0px 8px 16px rgb(0 8 36 / 5%)!important;height:41px!important;color:var(--dark)">Hello, <b>' + $('.currentstep1').val().toUpperCase() + '</b>!<ul class="nav float-right"><li><div class="btn btn-sm btn-fill-primary" style="margin-top:-5px;width:150px" onclick="delclass();$(\'#username\').addClass(\'show active\');">Change Name</div></li></ul></div></div></div>');
+      });
+  
+      // $('#currentstep2').click(function(){
+      //     selected_value = $("input[name='plan']:checked").val();
+      //     if(selected_value) {
+      //         $('#showplan').empty();
+      //         $('#showplan').append('<div class="row"><div class="col mb-1"><div class="form-control gtanimation" style="background:#141526!important;border: none!important;font-size: 19px;box-shadow: 0px 8px 16px rgb(0 8 36 / 5%)!important;height:41px!important;color:var(--dark)">Your plan and server power is <b>' + $('input[name=plan]:checked').attr("id").toUpperCase() + '</b>.<ul class="nav float-right"><li><div class="btn btn-sm btn-fill-primary" style="margin-top:-5px;width:150px" onclick="delclass();$(\'#plans\').addClass(\'show active\');">Change Plan</div></li></ul></div></div></div>');
+  
+      //         $('#1month').empty();
+      //         $('#1month').append('$' + $('input[name=plan]:checked').val().replace(/[^0-9\s]/gi, ""));
+      //         m3 = $('input[name=plan]:checked').val().replace(/[^0-9\s]/gi, "")*3;
+      //         $('#3months').empty();
+      //         $('#3months').append('$' + (m3 - (m3 / 100) * 5));
+      //         m6 = $('input[name=plan]:checked').val().replace(/[^0-9\s]/gi, "")*6;
+      //         $('#6months').empty();
+      //         $('#6months').append('$' + (m6 - (m6 / 100) * 10));
+      //         m12 = $('input[name=plan]:checked').val().replace(/[^0-9\s]/gi, "")*12;
+      //         $('#12months').empty();
+      //         $('#12months').append('$' + (m12 - (m12 / 100) * 15));
+              
+      //         delclass();
+  
+      //         $('#location').addClass('show active');
+      //     }
+      // });
+  
+      $('#currentstep3').click(function(){
+          selected_value = $("input[name='location']:checked").val();
+          if(selected_value) {
+              $('#showlocation').empty();
+              $('#showlocation').append('<div class="row"><div class="col mb-1"><div class="form-control gtanimation" style="background:#141526!important;border: none!important;font-size: 19px;box-shadow: 0px 8px 16px rgb(0 8 36 / 5%)!important;height:41px!important;color:var(--dark)">Your server will run in <b>' + $('input[name=location]:checked').val().toUpperCase() + '</b>.<ul class="nav float-right"><li><div class="btn btn-sm btn-fill-primary" style="margin-top:-5px" onclick="delclass();$(\'#location\').addClass(\'show active\');">Change Location</div></li></ul></div></div></div>');
+  
+              delclass();
+  
+              $('#type').addClass('show active');
+          }
+      });
+  
+      $('#currentstep2').click(function(){
+          selected_value = $("input[name='plan']:checked").val();
+          if(selected_value) {
+              document.getElementById("createmcserver").submit();
+              // $('#showtype').empty();
+              // $('#showtype').append('<div class="row"><div class="col mb-1"><div class="form-control gtanimation" style="background:#141526!important;border: none!important;font-size: 19px;box-shadow: 0px 8px 16px rgb(0 8 36 / 5%)!important;height:41px!important;color:var(--dark)">You picked <b>' + $('input[name=type]:checked').val().toUpperCase() + '</b> as the initial game type.<ul class="nav float-right"><li><div class="btn btn-sm btn-fill-primary" style="margin-top:-5px" onclick="delclass();$(\'#type\').addClass(\'show active\');">Change Type</div></li></ul></div></div></div>');
+  
+              // delclass();
+  
+              // $('#additional').addClass('show active');
+          }
+      });
+  
+      $('#iwantacc').click(function(){
+          selected_value = $("input[id='iwantacc']:checked").val();
+          if(selected_value) {
+              $('#iwantaccount').empty();
+              $('#ihaveaccount').empty();
+              $('#iwantaccount').show();
+              $('#ihaveaccount').hide();
+  
+              $('#iwantaccount').append('<div class="row"><div class="col mb-1"><input class="form-control" type="text" name="firstname" placeholder="First name *" autocomplete="off" required="" /></div><div class="col mb-1"><input class="form-control" type="text" name="lastname" placeholder="Last name *" autocomplete="off" required="" /></div></div><div class="row"><div class="col mb-1"><input name="accusername" type="text" class="form-control" required="" autocomplete="off" placeholder="Username *" /></div></div><div class="row"><div class="col mb-1"><input name="email" type="email" class="form-control" required="" autocomplete="off" placeholder="Email address *" /></div></div><span style="color:White">You will create your password with the link we will send to your email address</span>.</div>');
+  
+              $('#billing').show();
+          }
+      });
+  
+      $('#ihaveacc').click(function(){
+          selected_value = $("input[id='ihaveacc']:checked").val();
+          if(selected_value) {
+              $('#iwantaccount').empty();
+              $('#ihaveaccount').empty();
+              $('#ihaveaccount').show();
+              $('#iwantaccount').hide();
+  
+              $('#ihaveaccount').append('<div class="col"><div class="form-group"><input name="email" type="email" class="form-control" required="" autocomplete="off" placeholder="Email address *" /></div><span style="color:White">We will associate your server with this email address.</span></div>');
+  
+              $('#billing').show();
+          }
+      });
+  
+      $('#currentstep5').click(function(){
+          selected_value = $("input[name='cycle']:checked").val();
+          if(selected_value) {
+              $('.nextstep2').show();
+          }
+      });
+  </script>
+  
+  <footer class="theme-footer">
+    <div class="footer-top">
+      <div class="container-fluid">
+        <div class="list-group">
+          <ul class="footer-list list-unstyled">
+            <li class="list-title">Games</li>
+            <li class="list-link">
+              <a href="minecraft-hosting">Minecraft</a>
+            </li>
+            <li class="list-link">
+              <a href="ark-hosting">ARK: Survival Evolved</a>
+            </li>
+            <li class="list-link"><a href="valheim-hosting">Valheim</a></li>
+          </ul>
+          <ul class="footer-list list-unstyled">
+            <li class="list-title">Partner Programs</li>
+            <li class="list-link">
+              <a href="https://partner.knighthost.live">Affiliate Program</a>
+            </li>
+            <li class="list-link">
+              <a href="https://partner.knighthost.live">Referral Program</a>
+            </li>
+          </ul>
+          <ul class="footer-list list-unstyled">
+            <li class="list-title">Company</li>
+            <li class="list-link"><a href="blog" target="_blank">Blog</a></li>
+            <li class="list-link">
+              <a href="https://discord.gg/4bWxZqhDX4" target="_blank"
+                >Discord</a
+              >
+            </li>
+            <li class="list-link">
+              <a href="https://status.knighthost.live" target="_blank"
+                >Service Status</a
+              >
+            </li>
+            <li class="list-link">
+              <a href="https://portal.knighthost.live">Billing Panel</a>
+            </li>
+            <li class="list-link">
+              <a href="https://panel.knighthosthost.live">Control Panel</a>
+            </li>
+          </ul>
+          <ul class="footer-list list-unstyled">
+            <li class="list-title">Help Center</li>
+            <li class="list-link">
+              <a href="https://help.knighthost.live/ticket"
+                >Contact Us</a
+              >
+            </li>
+            <li class="list-link">
+              <a href="https://help.knighthost.live/ticket"
+                >Get Support</a
+              >
+            </li>
+          </ul>
+          <ul class="footer-list list-unstyled">
+            <li class="list-title">Legal</li>
+            <li class="list-link"><a href="aboutus">About Us</a></li>
+            <li class="list-link"><a href="terms">Terms of use</a></li>
+            <li class="list-link"><a href="privacy">Privacy Policy</a></li>
+            <li class="list-link"><a href="refund">Refund Policy</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container-fluid">
+        <div class="content d-flex align-items-start mb-2">
+          <div class="logo mb-lg-0 mb-1">
+            <a href="#">
+              <img
+                src="https://i.imgur.com/aVCurdL.png"
+                class="img-fluid"
+                alt="Hyzen"
+              />
+            </a>
+          </div>
+          <div class="copyright mr-lg-5">
+            <ul
+              class="links list-unstyled d-flex align-items-center flex-wrap"
+            >
+              <li><a href="aboutus">About Us</a></li>
+              <li><a href="terms">Terms of Use</a></li>
+              <li><a href="privacy">Privacy Policy</a></li>
+              <li><a href="refund">Refund Policy</a></li>
+            </ul>
+  
+            <p class="para-3">
+              4082 Hillcrest Lane 91761 Ontario, Delhi India<br />951-259-7271<br />
+              Copyright &copy; 2023, Knight host. All Rights Reserved.
+            </p>
+          </div>
+          <ul
+            class="social-list list-unstyled d-flex align-items-center justify-content-lg-end justify-content-center ml-lg-auto mt-lg-0 mt-2"
+          >
+            <li>
+              <a href="https://fb.me/"
+                ><img
+                  src="assets/images/templates/footer/facebook.webp"
+                  alt="Icon"
+              /></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/knightmc_"
+                ><img
+                  src="assets/images/templates/footer/twitter.webp"
+                  alt="Icon"
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://www.youtube.com/frenzzys"
+                ><img
+                  src="assets/images/templates/footer/youtube.webp"
+                  alt="Icon"
+              /></a>
+            </li>
+            <li>
+              <a href="https://instagram.com/knighthost" target="_blank"
+                ><img
+                  src="assets/images/templates/footer/instagram.webp"
+                  alt="Icon"
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="content d-lg-flex align-items-end flex-wrap">
+          <p class="para-3">
+            Use of this Site is subject to express terms of use.<br />
+            By using this site, you signify that you agree to be bound by
+            these <a href="terms">Universal Terms of Service</a>.
+          </p>
+          <div class="signature ml-auto mt-lg-0 mt-1">
+            <p class="para-3"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <style>
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+  
+    ::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
+  
+    ::-webkit-scrollbar-thumb {
+      background: #ccc;
+    }
+  
+    ::-webkit-scrollbar-thumb:hover {
+      background: #0060fe;
+    }
+  
+    .imghover:hover {
+      -ms-transform: scale(1.3);
+      /* IE 9 */
+      -webkit-transform: scale(1.3);
+      /* Safari 3-8 */
+      transform: scale(1.3);
+      transition: transform 0.4s;
+    }
+  
+    #Map-svg {
+      width: 900px;
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+    rel="stylesheet"
+  />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+  <script
+    src=""
+    async
+  ></script>
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=UA-123220691-2"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+  
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+  
+    gtag("config", "UA-123220691-2");
+  </script>
+  <script src="assets/js/jquery.lazy.min.js"></script>
+  
+  <script src="assets/js/templates.js"></script>
+  <script src="assets/js/script.js"></script>
+  <script>
+    var forEach = function (e, n, t) {
+        for (var a = 0; a < e.length; a++) n.call(t, a, e[a]);
+      },
+      randomIntFromInterval = function (e, n) {
+        return Math.floor(Math.random() * (n - e + 1) + e);
+      },
+      $mapPins = document.querySelectorAll("#Map-shape g");
+    forEach($mapPins, function (e, n) {
+      (n.groupTimeline = new TimelineMax({
+        paused: !0,
+      })),
+        n.groupTimeline.to(n, 0.25, {
+          opacity: 0,
+        }),
+        new TimelineMax({
+          repeat: -1,
+          delay: randomIntFromInterval(1, 3),
+          repeatDelay: randomIntFromInterval(0, 1),
+        }).to(n.querySelector(".Pin-back"), 3, {
+          scale: 50,
+          transformOrigin: "center center",
+          opacity: 0,
+        });
+    }),
+      forEach(
+        document.querySelectorAll(".js-Location-nav [data-location]"),
+        function (e, n) {
+          n.addEventListener(
+            "mouseenter",
+            function (e) {
+              var n = e.target.getAttribute("data-location");
+              forEach($mapPins, function (e, t) {
+                t.getAttribute("data-location") !== n &&
+                  t.groupTimeline.play();
+              });
+            },
+            !1
+          ),
+            n.addEventListener(
+              "mouseleave",
+              function (e) {
+                forEach($mapPins, function (e, n) {
+                  n.groupTimeline.reverse();
+                });
+              },
+              !1
+            );
+        }
+      );
+  </script>
+  </body>
+  </html>
