@@ -1,0 +1,280 @@
+.se-i .domain-box {
+  position: relative;
+  background-color: var(--dark);
+  background-image: url(../../images/pages/domains/shapes-01.png);
+  background-size: cover;
+  background-position: top left;
+  background-repeat: no-repeat;
+  padding: 30px 20px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.light-theme .se-i .domain-box {
+  background-color: var(--light);
+  border: 1px solid var(--border);
+}
+.se-i .domain-box::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+.light-theme .se-i .domain-box::before {
+  display: none;
+}
+.se-i .domain-box > * {
+  position: relative;
+  z-index: 2;
+}
+.se-i .row > div:nth-child(2) .domain-box {
+  background-image: url(../../images/pages/domains/shapes-02.png);
+}
+.se-i .row > div:nth-child(3) .domain-box {
+  background-image: url(../../images/pages/domains/shapes-03.png);
+}
+.se-i .row > div:nth-child(4) .domain-box {
+  background-image: url(../../images/pages/domains/shapes-04.png);
+}
+.se-i .row > div:nth-child(5) .domain-box {
+  background-image: url(../../images/pages/domains/shapes-05.png);
+}
+.se-i .row > div:nth-child(6) .domain-box {
+  background-image: url(../../images/pages/domains/shapes-06.png);
+}
+.se-i .row > div:nth-child(7) .domain-box {
+  background-image: url(../../images/pages/domains/shapes-07.png);
+}
+.se-i .row > div:nth-child(8) .domain-box {
+  background-image: url(../../images/pages/domains/shapes-08.png);
+}
+.se-i .domain-box .box-name {
+  font-size: 36px;
+  font-family: var(--primary-font);
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 15px;
+}
+.light-theme .se-i .domain-box .box-name {
+  color: #fff;
+}
+.se-i .domain-box .box-name span {
+  color: var(--gold);
+}
+.se-i .domain-box .box-para {
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+}
+.se-i .domain-box .price {
+  margin-top: 40px;
+}
+.se-i .domain-box .price .sub {
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+}
+.se-i .domain-box .price .title-3 {
+  font-size: 30px;
+  font-family: var(--primary-font);
+  font-weight: 700;
+  color: #fff;
+}
+.light-theme .se-i .domain-box .price .title-3 {
+  color: #fff;
+}
+.se-i .domain-box .search-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  transition: box-shadow 0.2s ease, background-color 0.2s ease,
+    border-color 0.2s ease, color 0.2s ease;
+}
+.se-i .domain-box .search-btn img {
+  width: 20px;
+  filter: invert(1);
+}
+.se-ii .box .box-icon {
+  height: 58px;
+  margin-bottom: 25px;
+}
+.se-ii .box .box-icon img {
+  width: 48px;
+}
+.se-ii .box .box-icon img.l-img {
+  display: none !important;
+}
+.light-theme .se-ii .box .box-icon img.l-img {
+  display: block !important;
+}
+.light-theme .se-ii .box .box-icon img.d-img {
+  display: none !important;
+}
+.se-ii .box .box-title {
+  font-size: 18px;
+  font-family: var(--primary-font);
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.light-theme .se-ii .box .box-title {
+  color: var(--dark);
+}
+.se-ii .box .box-para {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--text-gray);
+}
+.se-iii .box {
+  background-color: var(--semi-dark);
+  border-radius: 8px;
+  padding: 35px 30px 10px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+}
+.light-theme .se-iii .box {
+  background-color: #fff;
+  border: 1px solid var(--border);
+  box-shadow: none !important;
+}
+.se-iii .box:hover {
+  box-shadow: 0 10px 45px 0 rgba(0, 0, 0, 0.2);
+  background-color: var(--semi-dark-2);
+}
+.light-theme .se-iii .box:hover {
+  background-color: var(--light);
+}
+.se-iii .box-link {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 2;
+}
+.se-iii .box .icon {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+.se-iii .box .icon::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: var(--primary);
+  opacity: 0.1;
+}
+.se-iii .box.color-1 .icon::before {
+  background-color: #26c6da;
+}
+.se-iii .box.color-2 .icon::before {
+  background-color: #fc573b;
+}
+.se-iii .box.color-3 .icon::before {
+  background-color: #ffd200;
+}
+.se-iii .box.color-4 .icon::before {
+  background-color: #bd63f9;
+}
+.se-iii .box.color-5 .icon::before {
+  background-color: #00ffb7;
+}
+.se-iii .box.color-6 .icon::before {
+  background-color: #fe9801;
+}
+.se-iii .box .icon img {
+  width: 34px;
+}
+.se-iii .box-title {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.light-theme .se-iii .box-title {
+  color: var(--dark);
+}
+.se-iii .box-para {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-gray);
+  line-height: 1.7;
+  max-height: 70px;
+  height: 70px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  margin-bottom: 25px;
+}
+.se-iii .arrow {
+  margin-top: 20px;
+}
+.se-iii .arrow img {
+  width: 24px;
+  filter: contrast(0);
+  transition: all 0.15s ease;
+}
+.se-iii .box:hover .arrow img {
+  filter: contrast(100%);
+}
+.popular-box {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #141526;
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+}
+.light-theme .popular-box {
+  background-color: #fff;
+}
+.popular-box::before {
+  position: absolute;
+  content: "";
+  left: -4px;
+  top: -4px;
+  width: 48px;
+  height: 48px;
+  background: conic-gradient(
+    #fd004c,
+    #fe9000,
+    #fff020,
+    #3edf4b,
+    #3363ff,
+    #b102b7,
+    #fd004c
+  );
+  animation: spin 1.5s infinite linear;
+  border-radius: 50%;
+  z-index: -1;
+}
+.popular-box img {
+  width: 17px;
+  filter: invert(1);
+}
+.light-theme .popular-box img {
+  filter: invert(0);
+}
